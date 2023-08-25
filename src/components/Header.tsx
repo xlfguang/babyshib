@@ -26,10 +26,10 @@ const navs = [
     text: "Documents",
     link: "Documents",
   },
-  {
-    text: "Swap",
-    link: "Swap",
-  },
+  // {
+  //   text: "Buy BabyShib Coin",
+  //   link: "Swap",
+  // },
   {
     text: "Contact",
     link: "Contact",
@@ -57,7 +57,7 @@ function Header() {
         })}
       </NavList>
       {/* <CetrikLogo src={cetrikLogo}></CetrikLogo> */}
-      <HeaderButton>Launch App</HeaderButton>
+      <HeaderButton>Buy BabyShib Coin</HeaderButton>
     </HeaderBox>
   );
 }
