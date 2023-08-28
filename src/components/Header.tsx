@@ -57,7 +57,15 @@ function Header() {
         })}
       </NavList>
       {/* <CetrikLogo src={cetrikLogo}></CetrikLogo> */}
-      <HeaderButton>Persale</HeaderButton>
+      <HeaderButton
+        onClick={() => {
+          window.open(
+            "https://gempad.app/presale/0x6ee87f027f8d83d862C7dDCbd495C3f35D2A978e?chainId=109"
+          );
+        }}
+      >
+        Persale
+      </HeaderButton>
     </HeaderBox>
   );
 }
