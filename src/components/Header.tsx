@@ -57,7 +57,7 @@ function Header() {
         })}
       </NavList>
       {/* <CetrikLogo src={cetrikLogo}></CetrikLogo> */}
-      <HeaderButton>Buy BabyShib Coin</HeaderButton>
+      <HeaderButton>Persale</HeaderButton>
     </HeaderBox>
   );
 }
