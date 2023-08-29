@@ -234,19 +234,19 @@ function index() {
           <TokenomicsRectangle2>
             <div>
               <p>Airdrop</p>
-              <h3>9%</h3>
+              <h3>15%</h3>
             </div>
             <div>
               <p>Presale</p>
-              <h3>56%</h3>
+              <h3>49%</h3>
             </div>
             <div>
               <p>Liquidity</p>
-              <h3>28%</h3>
+              <h3>25%</h3>
             </div>{" "}
             <div>
               <p>Cex Listing</p>
-              <h3>7%</h3>
+              <h3>11%</h3>
             </div>
           </TokenomicsRectangle2>
         </TokenomicsBox2>

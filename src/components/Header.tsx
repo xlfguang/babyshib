@@ -64,7 +64,7 @@ function Header() {
           );
         }}
       >
-        Persale
+        Presale
       </HeaderButton>
     </HeaderBox>
   );
