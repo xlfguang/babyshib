@@ -250,6 +250,17 @@ function index() {
             </div>
           </TokenomicsRectangle2>
         </TokenomicsBox2>
+        <TokenomicsItem
+          style={{
+            width: "100%",
+            marginTop: "20px",
+          }}
+        >
+          <div className="title">contract:</div>
+          <div className="value">
+            0x2Bc459873C03a8cD2e3d070544cae1E6E184A686
+          </div>
+        </TokenomicsItem>
         {/* <img
           style={{
             width: "1200px",
