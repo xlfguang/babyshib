@@ -277,7 +277,13 @@ function index() {
           <p className="Mask1text2 Masktext">
             Discover the most powerful crypto community.
           </p>
-          <BTN>
+          <BTN
+            onClick={() => {
+              window.open(
+                "https://app.ball.exchange/?chain=shibarium&outputCurrency=BONE&inputCurrency=0x2Bc459873C03a8cD2e3d070544cae1E6E184A686"
+              );
+            }}
+          >
             <span>Buy BabyShib Coin</span>
           </BTN>
         </Mask>
