@@ -60,11 +60,11 @@ function Header() {
       <HeaderButton
         onClick={() => {
           window.open(
-            "https://gempad.app/presale/0x6ee87f027f8d83d862C7dDCbd495C3f35D2A978e?chainId=109"
+            "https://app.ball.exchange/?chain=shibarium&outputCurrency=BONE&inputCurrency=0x2Bc459873C03a8cD2e3d070544cae1E6E184A686"
           );
         }}
       >
-        Presale
+        Buy BabyShib Coin
       </HeaderButton>
     </HeaderBox>
   );
