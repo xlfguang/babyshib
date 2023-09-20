@@ -202,18 +202,17 @@ function index() {
         <TokenomicsBox>
           <TokenomicsItem>
             <div className="title">Total Supply</div>
-            <div className="value">1,000,000,000,000</div>
+            <div className="value">100,000,000,000,000</div>
           </TokenomicsItem>
           <TokenomicsItem>
             <div className="title">Buy & Sell tax on Dex</div>
             <div className="value">
-              3%
-              {/* <span className="percentage">0% Fee on ETH</span> */}
+              5% {/* <span className="percentage">0% Fee on ETH</span> */}
             </div>
           </TokenomicsItem>{" "}
           <TokenomicsItem>
             <div className="title">Tax Allocation</div>
-            <div className="value">Marketing 1% Dividends 2%</div>
+            <div className="value">Marketing 2% Dividends 3%</div>
           </TokenomicsItem>
         </TokenomicsBox>
         <TokenomicsBox2>
@@ -237,16 +236,17 @@ function index() {
               <h3>15%</h3>
             </div>
             <div>
-              <p>Presale</p>
-              <h3>49%</h3>
+              <p>Burn</p>
+              <h3>50%</h3>
             </div>
             <div>
               <p>Liquidity</p>
               <h3>25%</h3>
-            </div>{" "}
+            </div>
+            {/*  */}
             <div>
               <p>Cex Listing</p>
-              <h3>11%</h3>
+              <h3>10%</h3>
             </div>
           </TokenomicsRectangle2>
         </TokenomicsBox2>
@@ -258,7 +258,7 @@ function index() {
         >
           <div className="title">contract:</div>
           <div className="value">
-            0x2Bc459873C03a8cD2e3d070544cae1E6E184A686
+            0x8c3A5Cd65253e875Ae0a34c59C22A70A04655441{" "}
           </div>
         </TokenomicsItem>
         {/* <img
@@ -280,7 +280,7 @@ function index() {
           <BTN
             onClick={() => {
               window.open(
-                "https://app.ball.exchange/?chain=shibarium&outputCurrency=BONE&inputCurrency=0x2Bc459873C03a8cD2e3d070544cae1E6E184A686"
+                "https://app.ball.exchange/?chain=shibarium&outputCurrency=BONE&inputCurrency=0x8c3A5Cd65253e875Ae0a34c59C22A70A04655441"
               );
             }}
           >

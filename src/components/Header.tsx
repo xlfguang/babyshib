@@ -60,7 +60,7 @@ function Header() {
       <HeaderButton
         onClick={() => {
           window.open(
-            "https://app.ball.exchange/?chain=shibarium&outputCurrency=BONE&inputCurrency=0x2Bc459873C03a8cD2e3d070544cae1E6E184A686"
+            "https://app.ball.exchange/?chain=shibarium&outputCurrency=BONE&inputCurrency=0x8c3A5Cd65253e875Ae0a34c59C22A70A04655441"
           );
         }}
       >
