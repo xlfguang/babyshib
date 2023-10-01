@@ -62,6 +62,15 @@ export const NavList = styled.div`
   height: 15px;
   min-width: 478px;
 `;
+export const Merge = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  font-size: 40px;
+  font-weight: 600;
+`;
 export const NavItem = styled.a`
   text-decoration: none;
   color: black;
