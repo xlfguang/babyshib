@@ -103,11 +103,7 @@ function binance() {
   return (
     <>
       <IndexBox>
-        <Rectangle
-          style={{
-            height: "675px",
-          }}
-        >
+        <Rectangle>
           <Bc1 src={bc1} />
           {/* <Bc2 src={bc2} /> */}
           {/* <Bc3 src={bc3} /> */}

@@ -20,7 +20,6 @@ function check() {
         <Rectangle
           style={{
             margin: "0px",
-            height: "675px",
           }}
         >
           <Bc1 src={bc1} />
