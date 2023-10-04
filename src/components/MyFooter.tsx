@@ -14,11 +14,11 @@ import tg from "@/assets/img/TG.png";
 const iconList = [
   {
     icon: tw,
-    link: "https://twitter.com/BitMartExchange",
+    link: "https://twitter.com/BabyShibarium",
   },
   {
     icon: tg,
-    link: "https://t.me/BitMartExchange",
+    link: "https://t.me/babyshib_Shibarium1",
   },
   // {
   //   icon: re,

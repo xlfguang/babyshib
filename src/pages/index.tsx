@@ -258,7 +258,7 @@ function index() {
         >
           <div className="title">contract:</div>
           <div className="value">
-            0x8c3A5Cd65253e875Ae0a34c59C22A70A04655441{" "}
+            0xB67df69fa3cF25aD91912c98D99Fd2E22b62213D{" "}
           </div>
         </TokenomicsItem>
         {/* <img
@@ -280,7 +280,7 @@ function index() {
           <BTN
             onClick={() => {
               window.open(
-                "https://app.ball.exchange/?chain=shibarium&outputCurrency=BONE&inputCurrency=0x8c3A5Cd65253e875Ae0a34c59C22A70A04655441"
+                "https://creamswap.app/#/swap"
               );
             }}
           >
