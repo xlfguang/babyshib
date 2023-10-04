@@ -258,7 +258,7 @@ function index() {
         >
           <div className="title">contract:</div>
           <div className="value">
-            0xB67df69fa3cF25aD91912c98D99Fd2E22b62213D{" "}
+          0x8c3A5Cd65253e875Ae0a34c59C22A70A04655441{" "}
           </div>
         </TokenomicsItem>
         {/* <img
