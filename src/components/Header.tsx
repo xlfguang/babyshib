@@ -59,9 +59,18 @@ function Header() {
       {/* <CetrikLogo src={cetrikLogo}></CetrikLogo> */}
       <HeaderButton
         onClick={() => {
-          window.open(
-            "https://creamswap.app/#/swap"
-          );
+          var pathname = window.location.pathname;
+          console.log(pathname,"pathname");
+          if(pathname == "/binance"){
+            window.open(
+              "https://creamswap.app/#/swap"
+            );
+          }else{
+            window.open(
+              "https://app.ball.exchange/?chain=shibarium&outputCurrency=BONE&inputCurrency=0x8c3A5Cd65253e875Ae0a34c59C22A70A04655441"
+            );
+          }
+          
         }}
       >
         Buy BabyShib Coin
