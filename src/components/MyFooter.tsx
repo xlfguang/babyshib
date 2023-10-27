@@ -14,7 +14,7 @@ import tg from "@/assets/img/TG.png";
 const iconList = [
   {
     icon: tw,
-    link: "https://twitter.com/BabyShibarium",
+    link: "https://twitter.com/BabyShib2024",
   },
   {
     icon: tg,
