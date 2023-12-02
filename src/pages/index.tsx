@@ -298,7 +298,7 @@ function index() {
               <img src={tg} alt="" />
               <p>Telegram</p>
             </a>
-            <a href="https://twitter.com/BabyShibarium" target="_black">
+            <a href="https://twitter.com/BabyShib2024" target="_black">
               <img src={x} alt="" />
               <p>X</p>
             </a>

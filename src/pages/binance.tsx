@@ -256,7 +256,7 @@ function binance() {
         >
           <div className="title">contract:</div>
           <div className="value">
-            0x8c3A5Cd65253e875Ae0a34c59C22A70A04655441{" "}
+            0xB67df69fa3cF25aD91912c98D99Fd2E22b62213D{" "}
           </div>
         </TokenomicsItem>
         {/* <img
@@ -278,7 +278,7 @@ function binance() {
           <BTN
             onClick={() => {
               window.open(
-                "https://app.ball.exchange/?chain=shibarium&outputCurrency=BONE&inputCurrency=0x8c3A5Cd65253e875Ae0a34c59C22A70A04655441"
+                "https://creamswap.app/#/swap"
               );
             }}
           >
@@ -296,7 +296,7 @@ function binance() {
               <img src={tg} alt="" />
               <p>Telegram</p>
             </a>
-            <a href="https://twitter.com/BabyShibarium" target="_black">
+            <a href="https://twitter.com/BabyShib2024" target="_black">
               <img src={x} alt="" />
               <p>X</p>
             </a>
