@@ -109,6 +109,13 @@ export const IndexBox = styled.div`
   height: auto;
   min-height: 100vh;
 `;
+export const IndexBox2 = styled.div`
+  width: 100vw;
+  margin: 0 auto;
+  height: auto;
+  min-height: 100vh;
+  position: relative;
+`;
 export const Rectangle = styled.div`
   background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 37.75%);
   border-radius: 25px;
@@ -117,10 +124,53 @@ export const Rectangle = styled.div`
   margin-top: 80px;
   position: relative;
 `;
-export const Bc1 = styled.img`
-  position: absolute;
-  top: 0;
+export const RectangleHeader = styled.div`
   width: 100%;
+  height: 40px;
+  background-color: rgb(0, 102, 142);
+`;
+export const Rectangle1 = styled.div`
+  background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 37.75%);
+  border-radius: 25px;
+  height: 444px;
+  width: 1200px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  &:hover {
+    z-index: 100;
+  }
+`;
+export const Rectangle2 = styled.div`
+  background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 37.75%);
+  border-radius: 25px;
+  height: 484px;
+  width: 1200px;
+  position: absolute;
+  top: 25vh;
+  right: 0;
+  overflow: hidden;
+  &:hover {
+    z-index: 100;
+  }
+`;
+export const Rectangle3 = styled.div`
+  background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 37.75%);
+  border-radius: 25px;
+  height: 404px;
+  width: 1200px;
+  position: absolute;
+  bottom: 0;
+  left: 10vw;
+  overflow: hidden;
+  &:hover {
+    z-index: 100;
+  }
+`;
+export const Bc1 = styled.img`
+  width: 100%;
+  height: 100%;
 `;
 export const Bc2 = styled.img`
   height: 532px;
